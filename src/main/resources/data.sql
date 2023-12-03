@@ -1,0 +1,27 @@
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Olympique de Marseille','OM', 'Droit au but, Le vrai olympique, Aux armes', '#2faee0', '#ffffff', 'om.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Paris Saint Germain','PSG', 'Revons encore de la LDC', '#004170', '#DA291C', 'psg.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Real Madrid','Real', 'On y crois même avec des retraiter et des bléssés', '#FEBE10', '#00529F', 'real.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('FC Barcelone','Barça', 'La Macia et MESSIIIIIII', '#a50044', '#004d98', 'barca.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Bayern Munich','Bayern', 'Les puissants en Allemagne', '#0066b2', '#dc052d', 'bayern.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Manchester United','United', 'City mais en moins bien', '#DA291C', '#FBE122', 'manchester_united.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('RC Lens','Lens', 'OHHHHHHHH NORD, C ETAIT LES CORONDS, LA TERRE C ETAIT LE CHARBON, LE CIEL C ETAIT L HORIZON, LES HOMMES DES MINEURS DE FOND', '#EC1C24', '#FFF200', 'lens.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Olympique Lyonnais','OL', 'Partir d en bas et rester en bas', '#da0812', '#14387f', 'ol.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Manchester City','City', 'ERLING HALLAND', '#6CABDD', '#1C2C5B', 'manchester_city.svg', false);
+INSERT INTO team (name,nickname,slogan, primary_color, secondary_color, logo, is_deletable) VALUES ('Arsenal','Gunners', 'L OM de la première league', '#DB0007', '#9C824A', 'arsenal.svg', false);
+
+INSERT INTO player (name, number, position, team_id) VALUES ('Pierre-Emerick Aubameyang', 10, 'BU', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Iliman Ndiaye', 29, 'AT', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Ismaila Sarr', 23, 'AG', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Joaquin Correa', 20, 'AD', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Vithinia', 9, 'BU', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Jordan Veretout', 27, 'MDC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Valentin Rongier', 21, 'MDC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Geoffrey Kondogbia', 19, 'MDC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Amine Harit', 11, 'MOC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Azzedine Ounahi', 8, 'MOC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Chancel Mbemba', 99, 'DC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Renan Lodi', 12, 'DG', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Jonathan Clauss', 7, 'DD', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Leonardo Balerdi', 5, 'DC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Samuel Gigot', 4, 'DC', 1);
+INSERT INTO player (name, number, position, team_id) VALUES ('Pau Lopez', 16, 'G', 1);
